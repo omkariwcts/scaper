@@ -66,7 +66,7 @@ public class Login {
          driver.findElement(By.name("password")).sendKeys("P@assword123");
          Thread.sleep(1000);		    
   		 driver.findElement(By.xpath("//button[normalize-space()='Sign In']")).click();
-  		 driver.findElement(By.xpath("//button[normalize-space()='Sign In']")).click();
+  		 
 
          Thread.sleep(3000);
          System.out.println("Login Successful");
@@ -74,8 +74,6 @@ public class Login {
       // Close browser
       //   driver.quit();
          
-        System.out.println("Test cometed");
-        System.out.println("Test cometed");
         
     }
 }
