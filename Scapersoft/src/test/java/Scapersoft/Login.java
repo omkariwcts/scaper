@@ -73,7 +73,8 @@ public class Login {
       // Close browser
       //   driver.quit();
          
-        System.out.println("Test completed");
+        System.out.println("Test cometed");
+        System.out.println("Test cometed");
         
     }
 }
